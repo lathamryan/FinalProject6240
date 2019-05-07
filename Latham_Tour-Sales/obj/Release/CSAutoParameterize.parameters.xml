@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="OrderConnectionString-Web.config Connection String" description="OrderConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\RyanLatham\Dropbox\UC-Denver\Academic\6240\FinalProject\Latham_Tour-Sales\Order.mdf;Integrated Security=True;Connect Timeout=30" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\RyanLatham\\Dropbox\\UC-Denver\\Academic\\6240\\FinalProject\\Latham_Tour-Sales\\Latham_Tour-Sales\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='OrderConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
